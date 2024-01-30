@@ -1,0 +1,28 @@
+.comp_box1{
+    & label{
+        margin-right: 10px;
+    }
+    
+    & input{
+        border: 1px solid gray;
+        outline: none;
+        border-radius: 8px;
+        height: 40px;
+        padding-left: 10px;
+        /* width: 20vw; */
+        margin: 15px 0px 15px 0px;
+    }
+
+    & button{
+        margin-top: 20px;
+    }
+
+    & i{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    & i:hover{
+        color: red;
+    }
+}

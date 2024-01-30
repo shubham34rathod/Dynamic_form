@@ -1,0 +1,39 @@
+.form_box{
+    width: 90vw;
+    background-color: rgb(246, 246, 246);
+    margin: auto;
+    padding: 20px;
+
+    & label{
+        margin-right: 10px;
+    }
+    
+    & input{
+        border: 1px solid gray;
+        outline: none;
+        border-radius: 8px;
+        height: 40px;
+        padding-left: 10px;
+        width: 20vw;
+    }
+
+    & div{
+        margin: 15px 0px 15px 0px;
+    }
+}
+.form_box_2{
+    & select{
+        margin: 15px 0px 15px 0px;
+        width: 20vw;
+        height: 40px;
+        outline: none;
+        padding: 0px 5px 0px 5px;
+        border-radius: 8px;
+    }
+}
+.form_box3{
+    width: 90vw;
+    background-color: rgb(246, 246, 246);
+    margin: 20px auto 0px auto;
+    padding: 20px;
+}
